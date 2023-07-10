@@ -1,0 +1,30 @@
+{
+  "name": "stripe-payments",
+  "version": "1.0.0",
+  "description": "Stripe-Payments with Node.js , express.js and React.js",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run client\" \"npm run server\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mazenfteha/Stripe-Payments.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mazenfteha/Stripe-Payments/issues"
+  },
+  "homepage": "https://github.com/mazenfteha/Stripe-Payments#readme",
+  "dependencies": {
+    "concurrently": "^8.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
