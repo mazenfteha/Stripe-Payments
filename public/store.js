@@ -27,7 +27,7 @@ function ready() {
 }
 
 var stripeHandler = StripeCheckout.configure({
-    key: stripePublicKey,
+    key: stripePublickey,
     locale: 'en',
     token: function(token) {
         var items = []
